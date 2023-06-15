@@ -1,0 +1,1 @@
+This is the odin recipe practical section of the course
