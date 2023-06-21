@@ -1,46 +1,93 @@
 *{
-    width: 90%;
+    width: auto;
     margin: 0 auto;
-    background-color: whitesmoke;
+    background-color: #fed7bf;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-
-.container{
+header{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1{
-    padding: 10px;
+    color: #9a7787;
+    margin: 5px auto;
     text-transform: uppercase;
     text-decoration: underline;
-    
+    font-size: 10px;
 }
 
-h2{
-    text-transform: uppercase;
-    background-color: blue;
-    color: white;
+.container{
+    align-items: center;
+    width: 800px;
 }
 
-ol {
+
+.container .sect_1 .main_body {
+    margin: 15px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.container .sect_1 .main_body img {
+    border-radius: 30%;
+    height: 100px;
+    align-items: center;
+}
+
+.sect_2 {
+    margin-top: 25px;
+    font-size: 15px;
     list-style-position: inside;
-    text-align: justify;
+    display: flex;
+}
+
+.sect_2 ul {
+    display: flex;
+    margin-top: 25px;
+    margin-left: -80px;
+    font-size: 13px;
+    list-style-position: inside;
     list-style-type: lower-roman;
+  }
+
+.sect_2 ul li{
+    display: list-item;
+    margin: 5px;
 }
 
-ul{
-    list-style-position: inside;
-    text-align: justify;
-    list-style-type: square;
+/* Recipe */
+.image{
+    margin: 20px;
 }
 
-.main_body{
-    background-color: aqua;
+.image img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+}
+
+.description{
+    text-align: center;
+    margin: 15px;
+}
+
+.description h2{
     margin: 10px;
 }
 
-.mainlist{
-    background-color: whitesmoke;
+.ingredients h2{
+    text-align: center;
+
 }
+
+.steps h2{
+    text-align: center;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
 
